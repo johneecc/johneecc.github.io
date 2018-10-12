@@ -659,6 +659,13 @@ button[disabled]:focus {
   visibility: visible;
   opacity: 1;
 }
+.ik_carousel figure  a{
+	color: #e91b00;
+}
+.ik_carousel figure  a:focus,
+.ik_carousel figure  a:hover {
+	color: #ac1400;
+}
 .ik_carousel figure {
   position: absolute;
   display: none;
@@ -806,7 +813,7 @@ button[disabled]:focus {
   transform: rotate(135deg);
 }
 .ik_carousel .ik_controls .ik_button:hover {
-  background-color: #f76;
+  background-color: #ac1400;
 }
 .ik_carousel .ik_controls .ik_navbar {
   display: flex;
@@ -833,7 +840,7 @@ button[disabled]:focus {
   pointer-events: all;
 }
 .ik_carousel .ik_controls .ik_navbar:hover {
-  background-color: #f76;
+  background-color: #ac1400;
 }
 .ik_carousel .ik_controls .ik_navbar li {
   display: flex;

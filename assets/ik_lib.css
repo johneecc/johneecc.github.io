@@ -26,8 +26,11 @@ p {
   margin: 10px 0;
 }
 a {
-  color: #f76;
+  color: #ac1400;
   text-decoration: none;
+}
+a:focus, a:hover {
+	color: #e91b00;
 }
 input[type=text] {
   padding: 8px 12px;
@@ -566,7 +569,7 @@ button[disabled]:focus {
 }
 .ik_sortable ul li:hover,
 .ik_sortable ul li:focus {
-  background-color: #f76;
+  background-color: #e91b00;
   color: #fff;
 }
 .ik_sortable .dragover {
